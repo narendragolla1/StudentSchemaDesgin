@@ -1,4 +1,4 @@
-package com.example.studentschemadesgin;
+package com.example.studentschemadesign;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
