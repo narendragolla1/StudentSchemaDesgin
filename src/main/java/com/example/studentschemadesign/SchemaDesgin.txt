@@ -1,0 +1,65 @@
+Schema Design:
+- How will the database look
+- How to store relationship in the DB.
+- What will be different table in DB
+        - Different Column inside them.
+
+UML Diagrams:
+    Class Diagrams: Classes in the system and relation between them.
+                        - Inheritance (IS - A)
+                        - Association (HAS- A)
+                                    - Composition { Strong }
+                                    - Aggregation { Week }
+
+    Cardinality:
+        When two classes A and B have a HAS-A ===> Cardinality talks about
+
+        How to always get the correct answer for cardinality?
+            1) Clear what relation are we talking about.
+            2) 2 Step approach
+
+                            1   ------  M
+                    Passenger   ------ Ticket
+                            M   ------  1
+
+
+
+Schema:
+   - Blueprint of DB
+   - How will a SQL DB to present current requirement look
+   - What will the different table.
+   - What will be column inside those tables.
+
+
+    Start with a class diagram
+            ⬇️
+      do the Schema design
+
+
+-> For every class that you see in the class diagram -> create an associated table.
+
+
+
+
+        Non- Sparse                                             Sparse
+1:1     ID on 1 side or the other side                       Mapping table
+1:M                                          FK on M side
+M:1                                           FK on M side
+M:M                                         Mapping Table
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
