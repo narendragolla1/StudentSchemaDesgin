@@ -1,0 +1,89 @@
+------- UML Diagrams ------------
+    UML= Unified Modeling language
+            - standardization on how to represent different software engineering terms as daigrams.
+
+       Two types of UML Diagrams
+                1) Structural UML Diagrams - How the codebase is structured.
+                2) Behavioural UML Diagrams - working of a system
+                                            - How to those features work
+                                            - Different features supported by a system.
+
+
+   1) Structural UML Diagrams-
+                - Class Diagrams         ⭐️
+                - Package Diagrams
+                - Object diagram
+                - Component diagram
+
+   2) Behavioural UML Diagrams
+                - Activity diagram
+                - Use case diagrams         ⭐️
+                - sequence diagrams
+
+
+UseCase Diagram:
+- Features and functionality that a software system support.
+- Who uses these functionality
+
+5 Key words:
+System Boundary:
+    System Boundary is going to contain all the use case that are supported internally by the system.
+
+Use Case: (Verbs/ Action)
+- A feature that is supported by the software system.
+
+Actor: (Nouns)
+- User of my system
+- Type of users of the system
+
+Includes:
+- Often one feature needs others features for completion
+- From coding perspective it is like one function being called by another function.
+            includes         includes
+    A       ->          B      -->       C
+    but A doesn't includes C
+
+Extends:
+- If a particular feature has multiple special types, we represent each type by using extends.
+
+            <----- B
+        A <-----   C
+            <----- D
+
+
+        Eg:
+                        <------ Login with gmail
+                login <---- login with PhoneNo
+                         <------ Login with Twitter
+
+
+
+Class Diagrams:
+- Class diagram is backbone of object-oriented modeling it shows how different entites related to each other.
+- It shows the static structure of the system.
+- A class diagram describes the attributes and operations of a class and also the constraints imposed on the system.
+
+Purpose of Class Diagram:
+- Analysis and design of the static view of a application
+- To Describe the responsibility of a system.
+- To provide a base for component and deployment diagrams.
+- Forward and reverse engineering.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
